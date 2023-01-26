@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+
+} 
+
+section h1 {
+font-weight: 600;
+font-size: 48px;
+letter-spacing: -1;
+margin-bottom: 48px;
+margin-top: 16px;
+
+}
+
+h2 { 
+    font-weight: 600;
+    font-size: large;
+}
+
+#about-me {
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr);
+}
+
+p, li {
+    font-size: medium;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+button {
+    display: inline-block;
+    width: 50%;
+    height: 48px;
+    color: white;
+background-color: black;
+margin-bottom: 16px;
+margin-top: 32px;
+}
+
+
